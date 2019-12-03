@@ -2,4 +2,4 @@
 
 # ![Audit score][banner]
 
-[banner]: https://cdn.rawgit.com/cmda-fe3/logo/9fd877f/banner-extra-time.svg
+[banner]: originele_auditscore.png
