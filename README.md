@@ -20,6 +20,8 @@ Alle afbeeldingen worden nu lazy loaded ingeladen. Hiervoor heb ik de [Intersect
 ### Images
 De vanilla template houdt al rekening met de compressie van afbeeldingen, maar nog niet met het serven van de afbeeldingen in de juiste formaat. Aangezien deze website draait op Wordpress heb ik een handige plug in tool gevonden genaamd [Imagify](https://wordpress.org/plugins/imagify/) wat rekening houdt met wat de gebruiker upload in de media library. Deze afbeeldingen worden omgezet naar een WebP formaat en deze worden ook nog compressed. De images worden nu ook op de juiste manier opgeroepen in de `<picture>` tagg.
 
+Na wat testen en onderzoeken kwam ik er achter dat het webp formaat niet overal support wordt. Door deze reden heb ik dus ook besloten om de afbeeldingen maar niet in webp formaat om te zetten.
+
 ### Fonts
 Fallback fonts zijn toegevoegd op de fonts die gebruikt worden samen met de font subsetting voor een snellere performance. Ook is `font-display: swap` toegevoegd, zodat eerst de fallback fonts er staan, voor de standaard font is ingeladen.
 
