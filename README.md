@@ -37,6 +37,9 @@ De hele JavaScript was opgebouwd uit JQuery, dit heb ik stuk voor stuk omgebouwd
 ### Animations
 RequestAnimationFrame is nu toegepast op de animaties voor een veel soepelere animatie.
 
+### Service Worker
+Voor de website heb ik een service worker geïmplementeerd. Dit vond ik het meest interessante van de hele optimalisatie. Toen ik hier de vorige keer aan begon snapte ik er niks van en was er zelfs een beetje bang voor. Nu ik meer kennis heb kon ik het redelijk snel toevoegen. De website wordt nu succesvol gecached als de gebruiker op de website komt. Als het internet zou uitvallen dan kan de gebruiker nog steeds op de website navigeren.
+
 
 
 [banner]: originele_auditscore.png
